@@ -166,7 +166,7 @@ function countPara (doc)
         table.insert(doc.blocks[i].content, 1, pandoc.RawInline("tex", texCount))
       else
         table.insert(doc.blocks[i].content, 1, pandoc.Space())
-        table.insert(doc.blocks[i].content, 1, pandoc.Span(number, pandoc.Attr(ID, {"paragraph-number"})))
+        table.insert(doc.blocks[i].content, 1, pandoc.Span(number, pandoc.Attr(tostring(ID), {"paragraph-number"})))
       end
 
     end
