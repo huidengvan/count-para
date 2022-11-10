@@ -3,6 +3,13 @@ title: "菩提道次第广论讲记 (1)"
 date: 2021-03-12T17:26:13-08:00
 draft: false
 numbersections: true
+papersize: a5
+header-includes: |
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhead[CO,CE]{This is fancy}
+    \fancyfoot[CO,CE]{So is this}
+    \fancyfoot[LE,RO]{\thepage}
 ---
 
 
